@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Shippori+Antique+B1&display=swap');
+body{
+    background: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Shippori Antique B1', sans-serif;
+}
+nav ul{
+    height: 55px;
+    background: black;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+nav ul li{
+    padding: 0px 15px;
+    font-size: 15px;
+}
+.brand img{
+    height: 53px;
+    padding: 0px 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+.container{
+    min-height: 72.5vh;
+    background: black;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Shippori Antique B1', sans-serif;
+    display: flex;
+    width: 63%;
+    margin: 23px auto;
+    border-radius: 12px;
+    background-image: url('bg.jpg');
+}
+.container h2{
+    padding: 7px 15px;
+}
+.songitemContainer{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.songItem{
+    height: 50px;
+    width: 86%;
+    background: white;
+    display: flex;
+    color: black;
+    margin: 15px 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+}
+.songItem img{
+   width:45px;
+   margin: 0px 15px;
+}
+.songItem .songName{
+    font-size: 16px;
+}
+.songlistPlay{
+    margin: 12px;
+}
+.songlistPlay i{
+    cursor: pointer;
+}
+.bottom{
+    height: 80px;
+    position: sticky;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#progressBar{
+    width: 80vw;
+    margin-top: 8px;
+    height: 10%;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 12px;
+}
+.songInfo{
+    position: absolute;
+    left: 0vw;
+    display: flex;
+    flex-direction: row;
+}
+.songInfo img{
+    margin-top: 9px;
+    margin-left: 31px;
+    opacity:0;
+    transition: opacity 0.4s ease-in;
+}
+.songInfo .songTitle{
+    margin-top: 29px;
+    margin-left: 84px;
+    font-family: 'Nunito', sans-serif;
+font-family: 'Shippori Antique B1', sans-serif;
+}
